@@ -74,6 +74,12 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PACKAGES += \
 #    BullheadLayout
 
+# MicroG
+PRODUCT_PACKAGES += \
+     NetworkLocation
+     GmsCore \
+     GsfProxy
+
 # Prebuilt input device calibration files
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/synaptics_rmi4_i2c.idc:system/usr/idc/synaptics_rmi4_i2c.idc
